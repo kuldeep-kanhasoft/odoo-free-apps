@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Kanhasoft Bulk Invoice Delete</title>
+</head>
+<body>
+
+<section style="padding:40px; font-family:Arial, sans-serif;">
+
+    <h1 style="color:#875A7B;">
+        Kanhasoft Bulk Invoice Delete (Odoo 17)
+    </h1>
+
+    <p style="font-size:16px;">
+        This module allows Administrator to delete multiple invoices directly from tree view.
+        It automatically unreconciles payments, resets invoices to draft, and deletes them safely.
+    </p>
+
+    <hr/>
+
+    <h2>Key Features</h2>
+    <ul>
+        <li>Bulk delete multiple invoices</li>
+        <li>Works for Customer & Vendor invoices</li>
+        <li>Automatically removes reconciliation</li>
+        <li>Resets posted invoices to draft</li>
+        <li>Admin-only access</li>
+        <li>Odoo 17 Compatible</li>
+    </ul>
+
+    <hr/>
+
+    <h2>How It Works</h2>
+    <ol>
+        <li>Go to Accounting → Customers → Invoices</li>
+        <li>Switch to List View</li>
+        <li>Select multiple invoices</li>
+        <li>Click <strong>Force Delete</strong></li>
+    </ol>
+
+    <hr/>
+
+    <h2>Warning</h2>
+    <p style="color:red;">
+        This module permanently deletes invoices and journal entries.
+        Use only for testing or controlled environments.
+        Not recommended for production accounting.
+    </p>
+
+    <hr/>
+
+    <h2>Technical Details</h2>
+    <ul>
+        <li>Model: account.move</li>
+        <li>Method: action_bulk_force_delete()</li>
+        <li>Access: System Administrator only</li>
+    </ul>
+
+    <hr/>
+
+    <h2>Support</h2>
+    <p>
+        For support or customization:
+        <br/>
+        <strong>Kanhasoft</strong>
+        <br/>
+        Email: support@kanhasoft.com
+    </p>
+
+</section>
+
+</body>
+</html>
